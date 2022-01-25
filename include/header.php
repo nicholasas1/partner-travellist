@@ -112,6 +112,11 @@
           <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
         </div>
       </li>
+       <!-- Log Out -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="logout.php">
+        <img src="https://img.icons8.com/external-tal-revivo-regular-tal-revivo/24/000000/external-online-account-logout-with-arrow-direction-mark-login-regular-tal-revivo.png"/>        </a>
+      </li>
     </ul>
   </nav>
   <!-- /.navbar -->
