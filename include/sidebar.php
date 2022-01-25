@@ -12,10 +12,24 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+            <?php 
+                foreach ($user->result as $userdetail){
+                    if($userdetail->key == "wilcity_avatar"){
+                      $avatar = $userdetail->value;
+                    }
+                    else{
+                        $avatar = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCtFhZE-9msbTY6LMLyvcIvytoK22aM3hSUq9HDNnoJYSccyLlEmbQg5flyUJSfxElcqs&usqp=CAU";
+                    }
+                }
+            ?>
+          <img src="<?php echo $avatar ?>" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">
+              <?php 
+                echo $_SESSION['name'];
+              ?>
+            </a>
         </div>
       </div>
 
