@@ -70,9 +70,6 @@
       <p class="mb-0">
         <a href="register.html" class="text-center">Register a new membership</a>
       </p>
-      <p class="mb-0">
-        <a href="" class="text-center"> membership</a>
-      </p>
     </div>
     <!-- /.login-card-body -->
   </div>
@@ -97,7 +94,7 @@
         $json_user_role = file_get_contents($api_user_role);
         $data2 = json_decode($json_user_role);
         $role = $data2->result[0]->role;
-        if($role->administrator = 1 || $role->seller = 1 && $role->contributor == 1){
+        if(isset( $role->administrator) || isset( $role->seller) || isset( $role->contributor)){
           session_start();
           $_SESSION['user_id'] = $user_id;
           $_SESSION['name'] = $nama;
