@@ -12,10 +12,28 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <?php 
+            $user_id = $_SESSION['user_id'];
+              $api = "https://api.travellist.id/user-detail.php?user_id=$user_id";
+              $json = file_get_contents($api);
+              $hasil = json_decode($json);
+              $data = $hasil->result;
+              foreach ($data as $key) {
+                if($key->key == "wilcity_avatar"){
+                    $user_foto = $key->value;
+                }else{
+                    $user_foto = "https://toppng.com/uploads/preview/icons-logos-emojis-user-icon-png-transparent-11563566676e32kbvynug.png";
+                }
+              }
+          ?>
+          <img src="<?php echo $user_foto; ?>" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">
+            <?php 
+            echo $_SESSION['name'];
+            ?>
+          </a>
         </div>
       </div>
 
