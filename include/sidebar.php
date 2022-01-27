@@ -13,7 +13,7 @@
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
           <?php 
-            $user_id = $_SESSION['user_id'];
+            $user_id = $_SESSION['user_id']; echo $user_id;
               $api = "https://api.travellist.id/user-detail.php?user_id=$user_id";
               $json = file_get_contents($api);
               $hasil = json_decode($json);
@@ -77,7 +77,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/layout/top-nav.html" class="nav-link">
+                <a href="..\partner-travellist/destination-get-list.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Destination</p>
                 </a>
@@ -95,7 +95,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/fixed-sidebar.html" class="nav-link">
+                <a href="rent-get-list.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Rent </p>
                 </a>
