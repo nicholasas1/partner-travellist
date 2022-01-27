@@ -35,6 +35,7 @@
 <body class="hold-transition sidebar-mini layout-fixed">
   <?php include 'include/header.php';?>
   <?php include 'include/sidebar.php';?>
+  
   <div class="wrapper">
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
