@@ -2,9 +2,9 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+      <img src="https://travellist.id/wp-content/uploads/2022/01/LOGO-2-NO-BACKGROUND-3.png" alt="AdminLTE Logo"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">AdminLTE 3</span>
+      <span class="brand-text font-weight-light">TRAVELLIST</span>
     </a>
 
     <!-- Sidebar -->
