@@ -67,11 +67,13 @@
 
                 <div class="card-tools">
                   <div class="input-group input-group-sm" style="width: 150px;">
-                    <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
-
-                    <div class="input-group-append">
-                      <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
-                    </div>
+                    <form method="post">
+                      <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+                   
+                      <div class="input-group-append">
+                        <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
@@ -87,7 +89,8 @@
                   </thead>
                   <tbody>
                     <?php
-                      $api ="https://api.travellist.id/test-api.php?category=destination&user_id=$user_id&status=&title=";
+                      $search = $_POST['table_search'];
+                      $api ="https://api.travellist.id/test-api.php?category=destination&user_id=$user_id&status=&title=$search";
                       $json = file_get_contents($api);
                       $data = json_decode($json);
                       foreach($data->result as $des){
