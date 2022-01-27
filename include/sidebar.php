@@ -2,6 +2,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
+      <link rel="icon" href="favicon.png" />
       <img src="https://travellist.id/wp-content/uploads/2022/01/LOGO-2-NO-BACKGROUND-3.png" alt="AdminLTE Logo"
            style="opacity: .8">
       <span class="brand-text font-weight-light">TRAVELLIST</span>
@@ -544,6 +545,7 @@
       <!-- /.sidebar-menu -->
     </div>
     <!-- /.sidebar -->
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1095,4 +1097,6 @@
     <!-- /.sidebar -->
 >>>>>>> 454ed76e75e2ee2e2accdc5f2699bd8078ea54f7
 >>>>>>> ec421499465b966f252a60e28f3fd8844f3fb371
+=======
+>>>>>>> e4cacd49f54595322ed418a0e22728e6953b0078
   </aside>
