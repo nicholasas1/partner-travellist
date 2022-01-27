@@ -13,7 +13,7 @@
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
           <?php 
-            $user_id = $_SESSION['user_id']; echo $user_id;
+            $user_id = $_SESSION['user_id'];
               $api = "https://api.travellist.id/user-detail.php?user_id=$user_id";
               $json = file_get_contents($api);
               $hasil = json_decode($json);
