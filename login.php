@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>TRAVELLIST| Log in</title>
+  <title>TRAVELLIST | Log in</title>
+  <link rel="icon" href="include/img/logo.png" />
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,7 +22,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.html"><b>Admin</b>LTE</a>
+    <a href="../../index2.html"><b>Travellist <space> </b>LOGIN</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
