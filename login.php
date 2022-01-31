@@ -22,7 +22,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.html"><b>Travellist <space> </b>LOGIN</a>
+    <a href="../../index2.html"><b>LOGIN</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
