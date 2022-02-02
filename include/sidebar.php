@@ -52,7 +52,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link active">
+                <a href="./index.php" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Dashboard</p>
                 </a>
@@ -72,7 +72,7 @@
               <p>
                 Listing
                 <i class="fas fa-angle-left right"></i>
-                <span class="badge badge-info right">6</span>
+                <span class="badge badge-info right">5</span>
               </p>
             </a>
             <ul class="nav nav-treeview">
