@@ -22,7 +22,7 @@
                 if($key->key == "wilcity_avatar"){
                     $user_foto = $key->value;
                 }else{
-                    $user_foto = "https://toppng.com/uploads/preview/icons-logos-emojis-user-icon-png-transparent-11563566676e32kbvynug.png";
+                    $user_foto = "https://www.pinclipart.com/picdir/middle/157-1578186_user-profile-default-image-png-clipart.png";
                 }
               }
           ?>
@@ -113,6 +113,14 @@
               <i class="nav-icon fas fa-chart-pie"></i>
               <p>
                 Booking
+              </p>
+            </a>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+                Withdraw
               </p>
             </a>
           </li>
