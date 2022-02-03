@@ -22,7 +22,7 @@
                 if($key->key == "wilcity_avatar"){
                     $user_foto = $key->value;
                 }else{
-                    $user_foto = "https://www.pinclipart.com/picdir/middle/157-1578186_user-profile-default-image-png-clipart.png";
+                    $user_foto = "http://scymark.semarangkota.go.id/daftar-aplikasi/kategori/20190201025730icon_user.png";
                 }
               }
           ?>

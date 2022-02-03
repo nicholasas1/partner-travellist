@@ -49,7 +49,7 @@
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active">Dashboard v1</li>
+                <li class="breadcrumb-item active">Rent</li>
               </ol>
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -86,7 +86,7 @@
                   </thead>
                   <tbody>
                     <?php
-                      $api ="https://api.travellist.id/test-api.php?category=rent&user_id=$user_id&status=&title=";
+                      $api ="https://api.travellist.id/partner-get-list-listing.php?category=destination&user_id=&status=&title=";
                       $json = file_get_contents($api);
                       $data = json_decode($json);
                       foreach($data->result as $des){
